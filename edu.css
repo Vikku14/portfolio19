@@ -1,0 +1,36 @@
+div.qlist, div.clist{
+	margin: auto;
+	width: 50%;
+}
+li.list-group-item > p{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+span{
+	color: #484e59;
+	font-weight: normal;
+	position: absolute;
+	font-variant: normal;
+	right: 20px;
+	font-size: 15px;
+}
+
+.But{
+	margin: auto;
+	border-width: 15px;
+	border-color: black;
+}
+
+.btn{
+	height: 50px;	
+	margin-left: 150px;
+}
+div.info{
+
+	font-variant: small-caps;
+	text-align: center;
+	color: green;
+	font-size: 20px;
+	
+}
