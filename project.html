@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Projects</title>
+	<!-- js -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- css -->
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="profile.css">
+	<link rel="stylesheet" href="project.css">
+</head>
+<body>
+	<header>
+	<!-- navigation options -->
+	 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="profile.html">My Resume</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="profile.html">Profile <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="edu.html">Education</a>
+          <a class="nav-item nav-link" href="skills.html">Skills</a>
+          <a class="nav-item nav-link active" href="project.html">Projects</a>
+          <a class="nav-item nav-link" href="hobby.html">Hobbies</a>
+        </div>
+      </div>
+    </nav>
+	<!--  -->
+	</header>
+<br>
+<br><br>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Python Projects
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <ul class="list-group">
+		  <li class="list-group-item">Dynamic Website  <code>-- Django</code></li>
+		  <li class="list-group-item">Security Breach Notifier  <code>-- Machine Learning</code></li>
+		  <li class="list-group-item">CySAI <code>-- Machine Learning</code></li>
+		  <li class="list-group-item">Youtube Video Downloader <code>-- Tkinter(Python)</code></li>
+		  <li class="list-group-item">Youtube Playlist Downloader <code>-- PyQt5(Python)</code></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Java Project
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+		<ul class="list-group">
+		  <li class="list-group-item">Student Record Automation <code>-- Java</code></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          FrontEnd Project
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <ul class="list-group">
+
+	 		 <li class="list-group-item">
+      			<span class="badge badge-primary">My Resume</span>
+	 		 	Static Website
+	 		 	<code>-- HTML & CSS</code>
+	 		 </li>
+		</ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,12 +1,14 @@
 .navbar-brand{
   font-variant: small-caps;
 }
-  .card{
+.card{
   padding-left, padding-right:40px 40px;
   margin: auto;
   width: 40rem;
   text-align: center;
-  /*z-index: -1;*/
+}
+
+.card:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
